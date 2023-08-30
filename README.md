@@ -1,23 +1,55 @@
-# llama2_vi - Llama 2 Vietnamese model
+# Llama2 Vietnamese
 
-A hub for experimenting with large models tailored for Vietnamese, start with 
+<img src="docs/imgs/logo.png" alt="Llama 2 Logo" width="200"/>  
 
-## Overview
+[Read in Vietnamese](README_vi.md)
 
-`llama2_vi` isn't just about language models. It's a starting point for anyone looking to delve deep into the realm of large models specifically designed and fine-tuned for Vietnamese data. From Natural Language Processing to Computer Vision and more, `llama2_vi` aspires to be a community-centric platform that paves the way for Vietnamese-centric AI innovations.
+A fine-tuned Large Language Model (LLM) for the Vietnamese language based on the Llama 2 model.
+
+## Introduction
+
+This project is an effort to bring the power of large language models to the Vietnamese language. 
+
 
 ## Current Status
-
 ### 30 Aug 2023
-I've just rolled out a toy version of a large language model for Vietnamese. This model has been fine-tuned on a 20k instruction data sample and serves as our inaugural model. It's experimental and intended for lightweight tasks. 
 
-🔔 **Upcoming**: Stay tuned for bigger, more powerful versions in the near future!
+I've just rolled out a experience version of a large language model for Vietnamese (finetuned on Llama2-7b (https://huggingface.co/meta-llama/Llama-2-7b-hf)). This model has been fine-tuned on a 20k instruction data sample. It's experimental and intended for lightweight tasks.
+
+## Model Checkpoint
+
+The model has been published on Huggingface and can be accessed [here](https://huggingface.co/ngoantech/Llama-2-7b-vietnamese-20k).
 
 
 
-## Installation
+
+## Getting Started
 
 1. Clone the repository:
+    ```bash
+    git clone https://github.com/ngoanpv/llama2_vietnamese
+    cd llama2_vietnamese
+    ```
 
-```bash
-git clone https://github.com/your_username/llama2_vi.git
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Start the FastAPI server:
+    ```bash
+    python serving/fastapi/main.py
+    ```
+
+4. To test the server, use the provided script:
+    ```bash
+    python scripts/request_fastapi.py
+    ```
+
+
+## Future Plans
+
+Stay tuned for future releases as we are continuously working on improving the model, expanding the dataset, and adding new features.
+
+
+
