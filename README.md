@@ -1,6 +1,8 @@
 # Llama2 Vietnamese
 
-<img src="docs/imgs/logo.png" alt="Llama 2 Logo" width="200"/>  
+<p align="center">
+  <img src="docs/imgs/logo.png" alt="Llama 2 Logo" width="200"/>
+</p>
 
 [Read in Vietnamese](README_vi.md)
 
@@ -20,7 +22,10 @@ I've just rolled out a experience version of a large language model for Vietname
 
 The model has been published on Huggingface and can be accessed [here](https://huggingface.co/ngoantech/Llama-2-7b-vietnamese-20k).
 
+## Example Output
+Here's a glance at what you can expect from the model:
 
+<img src="docs/imgs/exp_1.png" alt="output_1"/>  
 
 
 ## Getting Started
