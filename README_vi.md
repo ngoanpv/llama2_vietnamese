@@ -4,6 +4,9 @@
   <img src="docs/imgs/logo.png" alt="Llama 2 Logo" width="200"/>
 </p>
 
+[Read in English](README.md)
+
+
 Mô hình ngôn ngữ lớn được tinh chỉnh cho tiếng Việt dựa trên mô hình Llama 2.
 
 ## Giới thiệu
@@ -52,6 +55,3 @@ Checkpoint của model có thể tìm thấy tại HuggingFace [ở đây](https
 
 - Fine tune trên bộ dữ liệu lớn hơn
 - Thử nghiệm điều chỉnh tokenizer và các bước cho pre-training
-
-
-
